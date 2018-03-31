@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Basics_of_CrystalReport.CrystalRepport {
+namespace Basicsofcrystalreport.CrystalReport {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -16,14 +16,14 @@ namespace Basics_of_CrystalReport.CrystalRepport {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class CrystalReport_HelloWord : ReportClass {
+    public class CRP_HelloWord : ReportClass {
         
-        public CrystalReport_HelloWord() {
+        public CRP_HelloWord() {
         }
         
         public override string ResourceName {
             get {
-                return "CrystalReport_HelloWord.rpt";
+                return "CRP_HelloWord.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace Basics_of_CrystalReport.CrystalRepport {
         
         public override string FullResourceName {
             get {
-                return "Basics_of_CrystalReport.CrystalRepport.CrystalReport_HelloWord.rpt";
+                return "Basicsofcrystalreport.CrystalReport.CRP_HelloWord.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace Basics_of_CrystalReport.CrystalRepport {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedCrystalReport_HelloWord : Component, ICachedReport {
+    public class CachedCRP_HelloWord : Component, ICachedReport {
         
-        public CachedCrystalReport_HelloWord() {
+        public CachedCRP_HelloWord() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace Basics_of_CrystalReport.CrystalRepport {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            CrystalReport_HelloWord rpt = new CrystalReport_HelloWord();
+            CRP_HelloWord rpt = new CRP_HelloWord();
             rpt.Site = this.Site;
             return rpt;
         }

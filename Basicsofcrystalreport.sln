@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basicsofcrystalreport", "Basicsofcrystalreport.csproj", "{0F0D3BA8-77C5-41F1-A11C-0CB8496BC3EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics_of_CrystalReport", "Basics_of_CrystalReport.csproj", "{0F0D3BA8-77C5-41F1-A11C-0CB8496BC3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23D913E9-F163-49D3-9E9A-C447C8017B74}
 	EndGlobalSection
 EndGlobal

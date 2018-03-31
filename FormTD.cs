@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Basicsofcrystalreport
+namespace Basics_of_CrystalReport
 {
-    public partial class Form2 : Form
+    public partial class FormTD : Form
     {
-        public Form2()
+        public FormTD()
         {
             InitializeComponent();
         }
